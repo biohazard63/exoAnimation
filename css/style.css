@@ -1,4 +1,4 @@
-.carre{
+.carre {
     position: relative;
     width: 200px;
     height: 200px;
@@ -7,7 +7,7 @@
     border-radius: 10px;
 }
 
-.cercle{
+.cercle {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -29,9 +29,7 @@
 .anim-3 {
     animation: animation-3 2s infinite alternate ease-in-out;
 }
-.anim-4 {
-    animation: rotation 8s infinite alternate ease-in-out;
-}
+
 @keyframes animation-1 {
     0% {
         margin-top: 0;
@@ -43,9 +41,9 @@
     }
     100% {
         margin-top: 0;
-        background-color: purple;    }
+        background-color: purple;
+    }
 }
-
 
 
 @keyframes animation-2 {
@@ -85,21 +83,28 @@
     }
 }
 
-@keyframes rotation {
-    0% {
-        transform: rotate(0deg);
-    }
-    25% {
-        transform: rotate(90deg);
 
-    }
-    50% {
-        transform: rotate(180deg);
-    }
-    75% {
-        transform: rotate(270deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
+/*animation pour le carrer*/
+
+/*.anim-4 {*/
+/*    animation: rotation 8s infinite alternate ease-in-out;*/
+/*}*/
+
+/*@keyframes rotation {*/
+/*    0% {*/
+/*        transform: rotate(0deg);*/
+/*    }*/
+/*    25% {*/
+/*        transform: rotate(90deg);*/
+
+/*    }*/
+/*    50% {*/
+/*        transform: rotate(180deg);*/
+/*    }*/
+/*    75% {*/
+/*        transform: rotate(270deg);*/
+/*    }*/
+/*    100% {*/
+/*        transform: rotate(360deg);*/
+/*    }*/
+/*}*/
